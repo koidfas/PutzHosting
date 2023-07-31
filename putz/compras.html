@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carrinho!</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Opções do container</h1>
+        <form>
+            <h2>RAM</h2>
+            <input type="radio" name="ram" value="2GB">2GB
+            <input type="radio" name="ram" value="4GB">4GB 
+            <input type="radio" name="ram" value="6GB">6GB 
+            <input type="radio" name="ram" value="8GB">8GB 
+            <input type="radio" name="ram" value="16GB">16GB 
+            <hr>
+            <h2>Processamento</h2>
+            <select name="processamento">
+                <option>Simples</option>
+                <option>Padrão</option>
+                <option>Avançado</option>
+            </select>
+            <hr>
+            <h2>ModLoaders/Servers</h2>
+            <input type="checkbox" name="modloader" value="forge">Forge
+            <input type="checkbox" name="modloader" value="fabric">Fabric
+            <input type="checkbox" name="modloader" value="quilt">Quilt
+            <input type="checkbox" name="modloader" value="paper">Paper
+            <input type="checkbox" name="modloader" value="vanilla">Vanilla
+            <input type="checkbox" name="modloader" value="bedrock">Bedrock<br>
+        </form>
+        <a href="feedback.html">
+            <input type="submit" value="Confirmar"><br>
+        </a>
+        <a href="index.html">
+            Checar valores!
+        </a>
+    </body>
+</html>
